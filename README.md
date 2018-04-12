@@ -1,17 +1,23 @@
 
-d3.csv("iris.csv", function (err, data) {
-	if (!err) handleData(data);
-});
 
-var setosaColor = 'rgba(255, 0, 0, 0.7)',versicolorColor = 'rgba(204, 102, 0, 0.7)',virginicaColor = 'rgba(0, 200, 0, 0.7)';
-$('#setosa').css('background-color', setosaColor);
-$('#versicolor').css('background-color', versicolorColor);
-$('#virginica').css('background-color', virginicaColor);
-function handleData(data) {
+	d3.csv("iris.csv", function (err, data) {
+	if (!err) handleData(data);
+	});
+	var setosaColor = 'rgba(255, 0, 0, 0.7)',versicolorColor = 'rgba(204, 102, 0, 0.7)',virginicaColor = 'rgba(0, 200, 0, 0.7)';
+	$('#setosa').css('background-color', setosaColor);
+	$('#versicolor').css('background-color', versicolorColor);
+	$('#virginica').css('background-color', virginicaColor);
+
+	function handleData(data) {
+	
 	var w = 400,
-	    h = 400,
+	
+	h = 400,
+	
 	padding = {
+	
 	top: 20,bottom: 50,
+	
 	right: 40,left: 40};
 	
 	var xScale = d3.scale.linear() 
