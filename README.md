@@ -107,6 +107,5 @@
 		drawSpecies(svg, "versicolor", attr1, attr2, versicolorColor);
 		drawSpecies(svg, "virginica", attr1, attr2, virginicaColor);
 	};
-
 	createScatterPlot("Sepal", "sepalLength", "sepalWidth");
 	createScatterPlot("Petal", "petalLength", "petalWidth");}
