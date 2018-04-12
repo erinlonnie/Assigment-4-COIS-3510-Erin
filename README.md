@@ -109,5 +109,4 @@
 	};
 
 	createScatterPlot("Sepal", "sepalLength", "sepalWidth");
-	createScatterPlot("Petal", "petalLength", "petalWidth");
-	}
+	createScatterPlot("Petal", "petalLength", "petalWidth");}
